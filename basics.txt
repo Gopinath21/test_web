@@ -1,0 +1,36 @@
+verifyTextPresent : 
+
+verifyElementPresent :existence of any HTML tags 
+
+verifyText : to test the UI element & text 
+this should be use locator .
+
+
+Locating by Identifier :
+
+
+Locating by ID :
+
+Matching Text Patterns;
+Types of patterns;
+1) Globbing , Regular expressions & Exact 
+1) Globbing : is used to display all the files ending with a ".C"
+extension that exist in the current directory .
+
+AndWait :
+
+waitForElementPresent :
+wait dynamically , checking for the desire condition every second and continuing to the next
+command in the script as soon as the condition is met.
+
+storeElementPresent:
+This corresponds to verifyElemetPresent.It simply stores a boolean value .
+depends on the UI element is found
+
+storeText :
+
+StoreText corresponding to verifyText. It uses a locator to identify specific page text . the text, if found , is stored in the variable.
+
+storeEval ;
+allows the test to store the result of running the script in a variable.
+-----------------------------------------------------
